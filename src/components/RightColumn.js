@@ -1,6 +1,5 @@
 import React from 'react';
 import { Paper, TextField, Button } from '@mui/material';
-import edit from '../imgsforfront/edit.png';
 
 function RightColumn({ generatedText }) {
   return (
@@ -14,11 +13,6 @@ function RightColumn({ generatedText }) {
         value={generatedText}
         disabled
       />
-      {/* <img
-        src={edit}
-        alt="Icon"
-        style={{ width: '40px', height: '40px', marginLeft: '350px', marginTop: '10px' }}
-      /> */}
       <Button type="submit" color="primary" style={{ width: "100px", marginTop: "45px", border: '2px solid #576db6', marginRight: '15px', color: "#4357a3" }}>
         Cancel
       </Button>
